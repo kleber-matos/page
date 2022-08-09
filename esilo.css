@@ -1,0 +1,52 @@
+body {
+    background-image: url(./img/background.jpg);
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cor {
+    color: white;
+}
+
+.logo {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.home {
+    color: yellow;
+    border-bottom: solid 1px yellow ;
+}
+
+.home:hover {
+    border-bottom: solid 1px rgb(177, 176, 176) ;
+    color:rgb(177, 176, 176) ;
+}
+
+.res:hover {
+    border-bottom: solid 1px rgb(177, 176, 176) ;
+    color:rgb(177, 176, 176) ;
+}
+
+.res {
+    border-bottom: solid 1px transparent ;
+}
+p ,h1{
+    font-size: 26px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.dev {
+    margin-top: 100px;
+    padding: 30px;
+}
